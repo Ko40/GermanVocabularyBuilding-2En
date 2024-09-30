@@ -98,7 +98,7 @@
 <script>
   // 単語リスト（German - English）
 const wordList = [
-  { german: 'das Gesäft', english: 'business/deal/shop' },
+    { german: 'das Geschäft', english: 'business/deal/shop' },  // スペル修正: "Gesäft" → "Geschäft"
   { german: 'der Laden', english: 'shop' },
   { german: 'die Handlung', english: 'action/story/shop' },
   { german: 'die Bank', english: 'bank' },
@@ -109,30 +109,30 @@ const wordList = [
   { german: 'der Kiosk', english: 'kiosk' }, 
   { german: 'die Apotheke', english: 'pharmacy' },
   { german: 'die Bäckerei', english: 'bakery' },
-  { german: 'die Buchhandlung', english: 'bakery' },
+  { german: 'die Buchhandlung', english: 'bookstore' },  // 訂正: "bakery" → "bookstore"
   { german: 'die Drogerie', english: 'drugstore' },
-  { german: 'die Reinigung', english: 'cleaning/lundry' },
+  { german: 'die Reinigung', english: 'cleaning/laundry' },  // スペル修正: "lundry" → "laundry"
   { german: 'das Fachgeschäft', english: 'specialist shop' },
   { german: 'die Geschäftsreise', english: 'business trip' },
   { german: 'die Konditorei', english: 'cake shop' },
-  { german: 'die Metzgerei', english: 'Butcher shop' },
+  { german: 'die Metzgerei', english: 'butcher shop' },  // 訂正: "Butcher" → "butcher"
   { german: 'die Wäscherei', english: 'laundry' },
   { german: 'die Fischerei', english: 'fishing industry' },
   { german: 'der Gemüsehändler', english: 'greengrocer' },
-  { german: 'der Zeitungshändler', english: 'newsdealer/newsgent' },
+  { german: 'der Zeitungshändler', english: 'newsdealer/newsagent' },  // 訂正: "newsgent" → "newsagent"
   { german: 'der Marktplatz', english: 'marketplace/market square' },
   { german: 'die Markthalle', english: 'covered market' },
   { german: 'der Flohmarkt', english: 'flea market' },
   { german: 'der Trödelmarkt', english: 'flea market' },
   { german: 'der Wochenmarkt', english: 'weekly market' },
-  { german: 'der Weihnachtsmarkt', english: 'Christmas fair' },
-  { german: 'das Cafe', english: 'cafe' },
+  { german: 'der Weihnachtsmarkt', english: 'Christmas market' },  // 訂正: "Christmas fair" → "Christmas market"
+  { german: 'das Café', english: 'café' },  // 訂正: "Cafe" → "Café"
   { german: 'der Imbiss', english: 'snack' },
   { german: 'die Kneipe', english: 'pub' },
-  { german: 'das Lokal', english: 'resautrant/business' },
-  { german: 'das Gaststätte', english: 'restaurant/inn' },
+  { german: 'das Lokal', english: 'restaurant/business' },  // スペル修正: "resautrant" → "restaurant"
+  { german: 'die Gaststätte', english: 'restaurant/inn' },  // 訂正: "das Gaststätte" → "die Gaststätte"
   { german: 'das Gasthaus', english: 'restaurant/inn' },
-  { german: 'die Pension', english: 'pension/resort inn' },
+  { german: 'die Pension', english: 'pension/guesthouse' },  // 訂正: "resort inn" → "guesthouse"
   { german: 'die Jugendherberge', english: 'youth hostel' },
   { german: 'das Büro', english: 'office' },
   { german: 'das Reisebüro', english: 'travel agency' },
@@ -143,7 +143,7 @@ const wordList = [
   { german: 'das Gästebuch', english: 'visitors book' },
   { german: 'das Gästehaus', english: 'guest house' },
   { german: 'das Gästezimmer', english: 'guest room' },
-  { german: 'gastfreundlich', english: 'hostipable' },
+  { german: 'gastfreundlich', english: 'hospitable' },  // スペル修正: "hostipable" → "hospitable"
   { german: 'der Gastgeber', english: 'host' },
   { german: 'der Gastprofessor', english: 'visiting professor' },
   { german: 'das Gastspiel', english: 'guest performance' },
@@ -156,12 +156,12 @@ const wordList = [
   { german: 'die Anstalt', english: 'establishment/institution' },
   { german: 'der Bau', english: 'construction/building' },
   { german: 'die Brücke', english: 'bridge' },
-  { german: 'der Brunnen', english: 'well/foutain' },
+  { german: 'der Brunnen', english: 'well/fountain' },  // スペル修正: "foutain" → "fountain"
   { german: 'der Damm', english: 'dam/embankment' },
   { german: 'das Denkmal', english: 'monument' },
   { german: 'die Pforte', english: 'entrance/door' },
   { german: 'der Tunnel', english: 'tunnel' },
-  { german: 'der Trum', english: 'tower' },
+  { german: 'der Turm', english: 'tower' },  // スペル修正: "Trum" → "Turm"
   { german: 'die Fabrik', english: 'factory' },
   { german: 'das Gelände', english: 'site/grounds' },
   { german: 'das Lager', english: 'camp/warehouse' },
@@ -173,7 +173,7 @@ const wordList = [
   { german: 'der Kirchturm', english: 'church tower/steeple' },
   { german: 'der Leuchtturm', english: 'lighthouse' },
   { german: 'die Turmuhr', english: 'turret clock' },
-  { german: 'das Konyentrationslager', english: 'concentration camp' },
+  { german: 'das Konzentrationslager', english: 'concentration camp' },  // スペル修正: "Konyentrationslager" → "Konzentrationslager"
   // 他の単語を追加
 ];
 
